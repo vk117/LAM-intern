@@ -6,6 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #00151c;
 }
 
 code {
@@ -13,9 +14,15 @@ code {
     monospace;
 }
 
-.line {
+.line:hover {
   fill: none;
   stroke: #3D55F0;
+  stroke-width: 3;
+}
+
+.average:hover{
+  fill:none;
+  stroke: black;
   stroke-width: 3;
 }
 
@@ -23,3 +30,9 @@ code {
   fill: #3D55F0;
   stroke: aliceblue;
 }
+
+#chart{
+  background: #0e3040;
+  color: #67809f;
+}
+
