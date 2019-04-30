@@ -32,7 +32,6 @@ app.get('/api/graph', async (req, res, next) => {
                 const start = Math.max(0, index - points);
                 const end = index;
                 const subset = total.slice(start, end + 1);
-                console.log(subset);
                 const sum = subset.reduce((a, b) => {
 
                     return parseInt(a) + (parseInt(b.value) || 0);
