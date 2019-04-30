@@ -50,3 +50,37 @@ div.tooltip {
   display: inline-block;
 }
 
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  color: aliceblue;
+}
+
+.btn{
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+.btn:hover{
+  background: white;
+  color: black;
+}
+
+h1{
+  color: white;
+}
+
+

@@ -3,7 +3,7 @@ import * as d3 from 'd3';
 
 const LineChart = (props) =>{
 
-
+    //declaring reference to be used for svg element
     const chart = useRef(null);
 
     useEffect(() => {
@@ -25,7 +25,7 @@ const LineChart = (props) =>{
         var min_avg = 0;
         var min_stock = 0;
 
-        //Remove the null value for the year 2017
+        //Remove the null value for the year 2018
         data.pop();
 
         var width = window.innerWidth - 100;
